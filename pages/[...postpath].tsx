@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://dev-rashid-test.pantheonsite.io/the-impact-of-digital-marketing-on-customer-behavior-a-deep-dive/#more-29/` + encodeURI(path as string)
+					`https://rashid7788322.blogspot.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
