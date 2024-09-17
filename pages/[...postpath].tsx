@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://dev-rashid-test.pantheonsite.io/just-click/` + encodeURI(path as string)
+					`https://dev-rashid-test.pantheonsite.io/just-click/`
 				}`,
 			},
 		};
