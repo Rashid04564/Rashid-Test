@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://drive.google.com/file/d/12pS8ZCbNSRjrtAAv_a7meU3pyB5OVYGj/view?usp=drivesdk/` 
+					`https://rashid-test-h7db.vercel.app/full-videos/Facebook/` 
 				}`,
 			},
 		};
