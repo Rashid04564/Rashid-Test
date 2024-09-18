@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://rashid-test-h7db.vercel.app/full-videos/Facebook/` 
+					`https://dev-rashid-test.pantheonsite.io/vercel-my-doman/` 
 				}`,
 			},
 		};
